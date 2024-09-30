@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Management</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <form method="POST" action="/add_student">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label for="student_id">Student ID:</label>
+        <input type="text" name="student_id" required><br>
+
+        <label for="math">Math Score:</label>
+        <input type="number" name="math" required><br>
+
+        <label for="science">Science Score:</label>
+        <input type="number" name="science" required><br>
+
+        <label for="english">English Score:</label>
+        <input type="number" name="english" required><br>
+
+        <button type="submit">Add Student</button>
+    </form>
+    
+    <p>{{ message }}</p>
+</body>
+</html>
