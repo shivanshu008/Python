@@ -1,4 +1,5 @@
 #function definition
+#time complexity : O(log ( m * n))
 def search2DArray(arr, target):
     #number of rows
     m = len(arr)
@@ -10,6 +11,8 @@ def search2DArray(arr, target):
     # binary search implementation
     while left <= right:
         mid = left + (right - left) // 2
+        #row number -> mid // n
+        #column number -> mid % n
         mid_element = arr[mid//n][mid%n]
         if target == mid_element:
             return True

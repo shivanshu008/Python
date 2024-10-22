@@ -5,7 +5,7 @@ def linearSearch(arr, x):
     return -1
 
 arr=[20,45,27,47,55,67,75,88,90]
-x = 76
+x = 67
 result = linearSearch(arr, x)
 print("Searching Element is present at index: ", result)
 

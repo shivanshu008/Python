@@ -1,4 +1,5 @@
 ## Method Definition
+## Time Complexity : O ( n^ 2)
 def SelectionSort(arr):
     n = len(arr)
     for i in range (n):

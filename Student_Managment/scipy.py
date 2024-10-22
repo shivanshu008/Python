@@ -6,9 +6,9 @@ Created on Sat Sep 28 22:48:58 2024
 """
 
 print("shovanshuf")
-from scipy import constants
+from Python.Student_Managment.scipy import constants
 print(constants.liter)
-import scipy
+import Python.Student_Managment.scipy as scipy
 print(scipy.__version__)
 print(constants.pi)
 print(dir(constants))
